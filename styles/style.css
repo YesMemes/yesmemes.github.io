@@ -1,0 +1,62 @@
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    transition: 1s;
+    max-width: 1000px;
+    max-height: 400px;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.lb-img{
+    size: 150%;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+.favicon{
+    height: 60px;
+    width: 60px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.SearchBar{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    height: 80px;
+    width: 100%;
+}
+
+.MainSearch{
+    font-family: 'Exo 2', sans-serif;
+    padding: 6px;
+    border: 1px solid #0098cb;
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.center{
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
