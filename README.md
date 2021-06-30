@@ -1,2 +1,2 @@
-# yesmemes.gtihub.io
+# yesmemes.github.io
 The Official Yes Memes Website
